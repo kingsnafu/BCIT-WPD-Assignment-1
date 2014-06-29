@@ -1,0 +1,1 @@
+/Users/rosecass/Sites/wpclass/wp-content/plugins/query-monitor/wp-content/db.php

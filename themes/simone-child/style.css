@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Simone Child  
+ Description:  Simone Child Theme
+ Author:       Rose Cass
+ Author URI:   http://example.com
+ Template:     simone
+ Version:      1.0.0
+ Text Domain:  sinome
+*/
+
+@import url("../simone/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+	font-family: 'FontAwesome';
+}
+.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before {
+	content: "\f164\f164\f164\f164\f164";
+}
+.woocommerce .star-rating:before, .woocommerce-page .star-rating:before{
+	content: "\f164\f164\f164\f164\f164";
+}
+
