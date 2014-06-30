@@ -12,7 +12,23 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+/*--------------------------------------------------------------
+TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Settings
+2.0 - Rating Icons
+3.0 - Shop Page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Settings
+--------------------------------------------------------------*/
+#content {
+	background: #ffffff;
+}
 
+/*--------------------------------------------------------------
+2.0 - Rating Icons
+--------------------------------------------------------------*/
 .woocommerce .star-rating, .woocommerce-page .star-rating {
 	font-family: 'FontAwesome';
 }
@@ -23,3 +39,31 @@
 	content: "\f164\f164\f164\f164\f164";
 }
 
+/*--------------------------------------------------------------
+3.0 - Shop Page
+--------------------------------------------------------------*/
+.woocommerce-page #content {
+	padding: 1% 5%;
+}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price {
+	color: #07bfb3;
+}
+
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover, 
+.woocommerce #respond input#submit:hover, 
+.woocommerce #content input.button:hover, 
+.woocommerce-page a.button:hover, 
+.woocommerce-page button.button:hover, 
+.woocommerce-page input.button:hover, 
+.woocommerce-page #respond input#submit:hover, 
+.woocommerce-page #content input.button:hover {
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #f2a4c3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#f2a4c3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f2a4c3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#f2a4c3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#f2a4c3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#f2a4c3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f2a4c3',GradientType=0 ); /* IE6-9 */
+}
